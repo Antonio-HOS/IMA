@@ -1,7 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
+.itim {
+  font-family: "Itim", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.itimBold {
+  font-family: "Itim", cursive;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:400;
+  font-style: normal;
+}
+
+.interBold {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:700;
+  font-style: normal;
+}
 :root {
   --background: #ffffff;
   --foreground: #171717;
