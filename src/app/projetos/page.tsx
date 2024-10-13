@@ -2,11 +2,11 @@ import Image from "next/image";
 import { Header } from "../components/Header";
 import TituloPost from "../components/TituloPost";
 import TituloSimples from "../components/TituloSimples";
-import CardPosts from "../components/CardPosts/page";
+import CardPosts from "../components/CardPosts";
 import { MousePointer2, MousePointerClick } from "lucide-react";
 import Link from "next/link";
 import BotaoNavegar from "../components/BotaoNavegar";
-import CardGrande from "../components/CardGrande/page";
+import CardGrande from "../components/CardGrande";
 import { FooterIma } from "../components/Footer";
 
 export default function Projetos() {
