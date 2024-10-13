@@ -5,7 +5,7 @@ import TituloSimples from "../components/TituloSimples";
 import CardPosts from "../components/CardPosts/page";
 import { MousePointer2, MousePointerClick } from "lucide-react";
 import Link from "next/link";
-import BotaoNavegar from "../components/BotaoNavegar/page";
+import BotaoNavegar from "../components/BotaoNavegar";
 import CardGrande from "../components/CardGrande/page";
 import { FooterIma } from "../components/Footer";
 import { ImgGaleria } from "../components/ImgGaleria";
