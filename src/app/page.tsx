@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Header } from "./components/Header";
 import TituloPost from "./components/TituloPost";
@@ -8,8 +10,22 @@ import Link from "next/link";
 import BotaoNavegar from "./components/BotaoNavegar";
 import CardGrande from "./components/CardGrande";
 import { FooterIma } from "./components/Footer";
+import { useEffect, useState } from "react";
+import Loading from "./components/loading";
 
 export default function Home() {
+  const [load, setLoad] = useState(true);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setLoad(false);
+    }, 1500);
+  }, []);
+
+  if (load) {
+    return <Loading />;
+  }
+
   return (
     <div className="bg-[#d2d2d2] min-h-screen">
       <Header />

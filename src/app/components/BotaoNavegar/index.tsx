@@ -12,7 +12,7 @@ export default function BotaoNavegar(props: propsButton) {
     <div className="flex justify-center mt-4">
       <Link
         href={props.link}
-        className="w-[852px] h-[95px] py-[31px] bg-[#8aa6bf] rounded-[25px]  justify-center items-center gap-5 inline-flex hover:shadow-2xl shadow-sm transition-all duration-300 hover:bg-blue-500 hover:text-black text-white"
+        className="w-[852px] h-[95px] py-[31px] bg-[#003368] rounded-[25px]  justify-center items-center gap-5 inline-flex hover:shadow-2xl shadow-sm transition-all duration-300 hover:bg-blue-500 hover:text-black text-white"
       >
         <div className="text-center text-4xl font-normal itim">
           {props.text}
