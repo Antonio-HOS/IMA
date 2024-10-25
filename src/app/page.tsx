@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Header } from "./components/Header";
 import TituloPost from "./components/TituloPost";
@@ -10,70 +8,72 @@ import Link from "next/link";
 import BotaoNavegar from "./components/BotaoNavegar";
 import CardGrande from "./components/CardGrande";
 import { FooterIma } from "./components/Footer";
-import { useEffect, useState } from "react";
-import Loading from "./components/loading";
+import { ImgGaleria } from "./components/ImgGaleria";
 
-export default function Home() {
-  const [load, setLoad] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoad(false);
-    }, 1500);
-  }, []);
-
-  if (load) {
-    return <Loading />;
-  }
-
+export default function Sobre() {
   return (
-    <div className="bg-[#d2d2d2] min-h-screen">
+    <div className="bg-[#d2d2d2] min-h-screen text-black">
       <Header />
-      <TituloPost title="IMA" image="/assets/background/background.png" />
-      <div className="flex my-5" />
-      <TituloSimples title="Projetos:" title2="Projetos promovido pelo IMA" />
-      <div className=" flex justify-center space-x-8 my-7">
-        <CardPosts
-          image="/assets/posts/rede_neural.png"
-          title="Rede neural artificial"
-          text="ferramenta de auxílio na previsão de safras de cacau ferramenta de auxílio na previsão de safras de cacau ferramenta de auxílio na previsão de safras de cacau."
-          link="/"
-        />
-        <CardPosts
-          image="/assets/posts/rede_neural.png"
-          title="Rede neural artificial"
-          text="ferramenta de auxílio na previsão de safras de cacau."
-          link="/"
-        />
-        <CardPosts
-          image="/assets/posts/rede_neural.png"
-          title="Rede neural artificial"
-          text="ferramenta de auxílio na previsão de safras de cacau."
-          link="/"
-        />
-      </div>
-      <BotaoNavegar text="Clique aqui para ver mais projetos" link="/" />
+      <TituloPost title="Sobre" image="/assets/background/Uesc.jpg" />
 
-      <div className="flex flex-col space-y-9 my-7 items-center">
-        <CardGrande
-          title="Construção do Site imagem e ação."
-          image="/assets/posts/rede_neural.png"
-          link="/"
-          text="Construção do mais novo site da Projeto IMA, com o objetivo de estreitar as  relações entre público e Universidade."
-        />
-        <CardGrande
-          title="Construção do Blog Salobrinho."
-          image="/assets/posts/rede_neural.png"
-          link="/"
-          text="Objetivo do blog é auxiliar os calouros que ingressam na UESC a se alocar no bairro de Salobrino-Ilheus e arredores."
-        />
-        <CardGrande
-          title="Curso de criação de games em Python"
-          image="/assets/posts/rede_neural.png"
-          link="/"
-          text="O projeto IMA vai oferecer aulas de Python de forma grauita para o público, o curso tem o objetivo de ensinar jovens a desenvolver jogos se a necessidade de conhecimento prévio."
-        />
+      <div className="flex flex-col md:flex-row justify-center md:space-x-8 p-8 items-end mt-20">
+        {/* Texto */}
+        <div className="md:w-[30%] text-black ">
+          <p className="text-justify mb-4">
+            LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+            hendrerit elit, eget commodo lorem. Nullam neque nisl, ornare non ex
+            ut, tempor fringilla elit. Nullam mattis interdum hendrerit.
+            Suspendisse maximus, lorem rutrum pulvinar sollicitudin, justo
+            tellus tempor libero, ac venenatis felis quam id ante. Nulla nec
+            lorem ullamcorper ligula fringilla ultricies in in diam. Donec leo
+            sapien, vulputate ut ante sit amet, viverra facilisis dui. In sit
+            amet nisl pellentesque, lacinia erat id, laoreet ex. Aliquam mattis
+            ullamcorper quam eu ultricies. Vivamus fermentum varius quam vitae
+            fermentum. Nunc id sem leo. Cras vestibulum lorem urna, at cursus
+            urna consectetur id. Integer tellus est, rutrum in risus in, commodo
+            hendrerit erat.
+          </p>
+        </div>
+
+        {/* Imagem */}
+        <div className="md:w-[30%] mt-4 md:mt-0">
+          <div className="w-[400px] h-[430px] relative">
+            <Image
+              src="/assets/posts/rede_neural.png"
+              alt="Descrição da Imagem"
+              layout="fill"
+              objectFit="cover"
+              className="rounded-3xl"
+            />
+          </div>
+        </div>
       </div>
+      <p className="text-justify mb-4 w-[60%] mx-auto">
+        LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+        hendrerit elit, eget commodo lorem. Nullam neque nisl, ornare non ex ut,
+        tempor fringilla elit. Nullam mattis interdum hendrerit. Suspendisse
+        maximus, lorem rutrum pulvinar sollicitudin, justo tellus tempor libero,
+        ac venenatis felis quam id ante. Nulla nec lorem ullamcorper ligula
+        fringilla ultricies in in diam. Donec leo sapien, vulputate ut ante sit
+        amet, viverra facilisis dui. In sit amet nisl pellentesque, lacinia erat
+        id, laoreet ex. Aliquam mattis ullamcorper quam eu ultricies. Vivamus
+        fermentum varius quam vitae fermentum. Nunc id sem leo. Cras vestibulum
+        lorem urna, at cursus urna consectetur id. Integer tellus est, rutrum in
+        risus in, commodo hendrerit erat.
+      </p>
+      <p className="text-justify mb-4 w-[60%] mx-auto">
+        LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
+        hendrerit elit, eget commodo lorem. Nullam neque nisl, ornare non ex ut,
+        tempor fringilla elit. Nullam mattis interdum hendrerit. Suspendisse
+        maximus, lorem rutrum pulvinar sollicitudin, justo tellus tempor libero,
+        ac venenatis felis quam id ante. Nulla nec lorem ullamcorper ligula
+        fringilla ultricies in in diam. Donec leo sapien, vulputate ut ante sit
+        amet, viverra facilisis dui. In sit amet nisl pellentesque, lacinia erat
+        id, laoreet ex. Aliquam mattis ullamcorper quam eu ultricies. Vivamus
+        fermentum varius quam vitae fermentum. Nunc id sem leo. Cras vestibulum
+        lorem urna, at cursus urna consectetur id. Integer tellus est, rutrum in
+        risus in, commodo hendrerit erat.
+      </p>
       <FooterIma />
     </div>
   );

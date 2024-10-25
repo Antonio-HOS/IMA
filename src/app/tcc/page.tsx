@@ -56,11 +56,11 @@ const data = {
   ],
 };
 
-export default function Projetos() {
+export default function Tcc() {
   return (
     <div className="bg-[#d2d2d2] min-h-screen">
       <Header />
-      <TituloPost title="Projetos" image="/assets/background/background.png" />
+      <TituloPost title="Projetos de conclusão de curso" image="/assets/background/background.png" />
       <div className="flex my-20" />
       <div className="flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mx-auto">

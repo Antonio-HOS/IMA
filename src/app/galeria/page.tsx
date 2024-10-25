@@ -22,26 +22,28 @@ export default function Galeria() {
             text="exemplo de texto"
             image="/assets/posts/rede_neural.png"
           />
-            <ImgGaleria
-              text="exemplo de texto"
-              image="/assets/posts/rede_neural.png"
-            />
           <ImgGaleria
             text="exemplo de texto"
             image="/assets/posts/rede_neural.png"
           />
           <ImgGaleria
-              text="exemplo de texto"
-              image="/assets/posts/rede_neural.png"
-            />
+            text="exemplo de texto"
+            image="/assets/posts/rede_neural.png"
+          />
           <ImgGaleria
             text="exemplo de texto"
             image="/assets/posts/rede_neural.png"
           />
           <ImgGaleria
-              text="exemplo de texto"
-              image="/assets/posts/rede_neural.png"
-            />
+            text="exemplo de texto"
+            image="/assets/posts/rede_neural.png"
+          />
+          <ImgGaleria
+            text="exemplo de texto"
+            image="/assets/posts/rede_neural.png"
+          />
+          <ImgGaleria text="exemplo de texto"
+            image="/assets/post/rede_neural.png" />
         </div>
       </div>
 

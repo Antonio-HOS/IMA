@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useState } from "react";
@@ -13,15 +12,24 @@ export function Header() {
     <div className="text-black bg-white h-[70px] flex items-center justify-between p-4 md:h-[120px] transition-all ">
       <div className="flex">
         <div className="  my-auto">
-        <Image width={180} height={80} src="/assets/logos/ima.png" alt="Logo" />
+          <Image
+            width={180}
+            height={80}
+            src="/assets/logos/ima.png"
+            alt="Logo"
+          />
         </div>
         <div className=" my-auto ml-[-40px]">
-        
-        <Image width={180} height={80} src="/assets/logos/proex.png" alt="Logo" />
-</div>
+          <Image
+            width={180}
+            height={80}
+            src="/assets/logos/proex.png"
+            alt="Logo"
+          />
+        </div>
       </div>
       <button
-        className="md:hidden" 
+        className="md:hidden"
         onClick={() => setIsMenuOpen(!isMenuOpen)}
         aria-label="Toggle Menu"
         color="black"
@@ -36,7 +44,10 @@ export function Header() {
       >
         <ul className="flex flex-col items-center md:flex-row md:space-x-4">
           <li className="w-full md:w-auto">
-            <Link href="/" className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all">
+            <Link
+              href="/"
+              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+            >
               Home
             </Link>
           </li>
@@ -50,20 +61,26 @@ export function Header() {
           </li>
           <li className="w-full md:w-auto">
             <Link
-              href="/andamento"
+              href="/tcc"
               className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
             >
-              Em andamento
+              TCC
             </Link>
           </li>
           <li className="w-full md:w-auto">
-            <Link href="/galeria" className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all">
+            <Link
+              href="/galeria"
+              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+            >
               Galeria
             </Link>
           </li>
           <li className="w-full md:w-auto">
-            <Link href="/sobre" className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all">
-              Sobre
+            <Link
+              href="/equipe"
+              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+            >
+              Equipe
             </Link>
           </li>
         </ul>
