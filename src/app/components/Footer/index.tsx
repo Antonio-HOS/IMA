@@ -46,17 +46,17 @@ export function FooterIma() {
           <ul className="space-y-2 text-lg">
             <li>
               <Link href="/" className="hover:underline">
-                Inicio
+                Home
               </Link>
             </li>
             <li>
-              <Link href="/contato" className="hover:underline">
+              <Link href="/projetos" className="hover:underline">
                 Projetos
               </Link>
             </li>
             <li>
-              <Link href="/sobre_nos" className="hover:underline">
-                Em adamento
+              <Link href="/tcc" className="hover:underline">
+                TCC
               </Link>
             </li>
             <li>
@@ -65,8 +65,8 @@ export function FooterIma() {
               </Link>
             </li>
             <li>
-              <Link href="/sobre" className="hover:underline">
-                Sobre
+              <Link href="/equipe" className="hover:underline">
+                Equipe
               </Link>
             </li>
           </ul>

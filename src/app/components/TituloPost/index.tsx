@@ -68,6 +68,7 @@ export default function TituloPost(props: TituloProps) {
   return (
 <section className="relative flex h-[360px] justify-center items-center flex-col mb-[50px] bg-black">
   {temImagem && (
+    <a href="https://youtu.be/TKMu8HnnSvw?si=25sa0KrJDU9mqBPQ" target="_blank" className="w-full h-full object-cover z-0 opacity-60 hover:opacity-100 transition-all duration-500">
     <video
       src={"/assets/background/uesc.mp4"}
       autoPlay
@@ -75,6 +76,7 @@ export default function TituloPost(props: TituloProps) {
       muted
       className="w-full h-full object-cover z-0 opacity-60 hover:opacity-100 transition-all duration-500"
     />
+    </a>
   )}
   <div className="min-w-[400px] h-[170px] px-8 py-5 bg-white rounded-tr-[45px] rounded-bl-[45px] shadow-2xl justify-center items-center gap-2.5 z-20 inline-flex absolute bottom-[-85px]">
     <div className="w-[240px] h-[180px] relative ml-[-40px]">

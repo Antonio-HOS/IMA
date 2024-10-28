@@ -6,30 +6,7 @@ import CardPosts from "../components/CardPosts";
 
 const data = {
   projetos: [
-    {
-      nome: "ACCB PRICE MINER",
-      descricao:
-        "Aplicação para Mineração Semi Automática de Preços para o Cálculo da Cesta Básica.",
-      link: "sem link por enquanto",
-    },
-    {
-      nome: "INDICA",
-      descricao:
-        "Site desenvolvido no escopo do grupo Imagem & Ação por bolsista Probex.",
-      link: "https://www.indica.uescbr",
-    },
-    {
-      nome: "CUBETTO",
-      descricao:
-        "Produzir atividades de aprendizado em linguagens de programação e eletrônica básica, utilizando a robótica como ferramenta educacional num campo de aplicação prática das atividades de ensino.",
-      link: "sem link por enquanto",
-    },
-    {
-      nome: "Sequências Didáticas para Processamento de Imagens",
-      descricao:
-        "Elaboração de sequências didáticas para introduzir conceitos básicos de processamento de imagens digitais para o ensino médio, aplicando conceitos de matemática de forma interessante e prática.",
-      link: "sem link por enquanto",
-    },
+   
     {
       nome: "TCC: Rede Neural Artificial (RNA) na Previsão de Safras de Cacau",
       descricao:
@@ -47,12 +24,7 @@ const data = {
       descricao:
         "Redes Neurais Convolucionais Aplicadas na Classificação de Amêndoas de Cacau.",
     },
-    {
-      nome: "Plataforma Cacau",
-      descricao:
-        "Sistema para apoiar o cacauicultor na gerência de sua roça de cacau.",
-      link: "https://www.plataformacacau.uesc.br",
-    },
+   
   ],
 };
 
