@@ -1,12 +1,14 @@
+"use client";
+
 import Image from "next/image";
 import { Header } from "../components/Header";
 import TituloPost from "../components/TituloPost";
 import { FooterIma } from "../components/Footer";
 import CardPosts from "../components/CardPosts";
+import { useState, useEffect } from "react";
 
 const data = {
   projetos: [
-   
     {
       nome: "TCC: Rede Neural Artificial (RNA) na Previsão de Safras de Cacau",
       descricao:
@@ -24,15 +26,27 @@ const data = {
       descricao:
         "Redes Neurais Convolucionais Aplicadas na Classificação de Amêndoas de Cacau.",
     },
-   
   ],
 };
 
 export default function Tcc() {
+  const [titulo, settitulo] = useState<string>("");
+
+  useEffect(() => {
+    if (window.innerWidth > 768) {
+      settitulo("Projetos de Conclusão de Curso");
+    } else {
+      settitulo("TCC's IMA");
+    }
+  }, []);
+
   return (
     <div className="bg-[#d2d2d2] min-h-screen">
       <Header />
-      <TituloPost title="Projetos de conclusão de curso" image="/assets/background/background.png" />
+      <TituloPost
+        title={titulo}
+        image="/assets/background/background.png"
+      />
       <div className="flex my-20" />
       <div className="flex justify-center">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mx-auto">

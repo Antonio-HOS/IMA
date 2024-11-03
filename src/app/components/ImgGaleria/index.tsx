@@ -6,7 +6,8 @@ interface ImgGaleriaProps {
 }
 export function ImgGaleria(props: ImgGaleriaProps) {
   return (
-    <div className="w-[630px] h-[360px] relative group">
+   <div>
+   <div className=" w-[350px] h-[200px] lg:w-[630px] lg:h-[360px] relative group">
       <Image
         src={props.image}
         alt="Imagem post"
@@ -17,6 +18,9 @@ export function ImgGaleria(props: ImgGaleriaProps) {
       <div className="absolute inset-0 flex items-center justify-center bg-black bg-opacity-90 text-white opacity-0 transition-opacity duration-300 group-hover:opacity-100 z-20">
         <p>{props.text}</p>
       </div>
+</div>
+<p className="md:hidden text-black">{props.text}</p>
+
     </div>
   );
 }

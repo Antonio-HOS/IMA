@@ -1,3 +1,5 @@
+"use client";
+
 import Image from "next/image";
 import { Header } from "./components/Header";
 import TituloPost from "./components/TituloPost";
@@ -16,8 +18,9 @@ export default function Sobre() {
       <Header />
       <TituloPost title="Sobre" image="/assets/background/Uesc.jpg" />
 
-      <div className="flex flex-col md:flex-row justify-center md:space-x-8 p-8 items-end mt-20">
+      <div className="flex flex-col md:flex-row justify-center md:space-x-8 p-2 md:p-8 items-end mt-20">
         {/* Texto */}
+    
         <div className="md:w-[30%] text-black ">
           <p className="text-justify mb-4">
             LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
@@ -36,19 +39,19 @@ export default function Sobre() {
         </div>
 
         {/* Imagem */}
-        <div className="md:w-[30%] mt-4 md:mt-0">
-          <div className="w-[400px] h-[430px] relative">
+        <div className="w-[90%] md:w-[30%] mt-4 md:mt-0  mx-auto">
+          <div className="w-full h-[430px] relative">
             <Image
               src="/assets/posts/rede_neural.png"
               alt="Descrição da Imagem"
               layout="fill"
               objectFit="cover"
-              className="rounded-3xl"
+              className="hover:rounded-none md:rounded-3xl transition-all duration-500 ease-in-out"
             />
           </div>
         </div>
       </div>
-      <p className="text-justify mb-4 w-[60%] mx-auto">
+      <p className="text-justify mb-4 w-[90%] md:w-[60%] mx-auto">
         LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
         hendrerit elit, eget commodo lorem. Nullam neque nisl, ornare non ex ut,
         tempor fringilla elit. Nullam mattis interdum hendrerit. Suspendisse
@@ -61,7 +64,7 @@ export default function Sobre() {
         lorem urna, at cursus urna consectetur id. Integer tellus est, rutrum in
         risus in, commodo hendrerit erat.
       </p>
-      <p className="text-justify mb-4 w-[60%] mx-auto">
+      <p className="text-justify mb-4 w-[90%] md:w-[60%] mx-auto">
         LLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vitae
         hendrerit elit, eget commodo lorem. Nullam neque nisl, ornare non ex ut,
         tempor fringilla elit. Nullam mattis interdum hendrerit. Suspendisse

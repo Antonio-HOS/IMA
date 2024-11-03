@@ -50,8 +50,8 @@ export default function Equipe() {
       <TituloPost title="Equipe" image="/assets/background/background.png" />
       <div className="flex my-20" />
       <div className="flex justify-center flex-col text-black">
-        <h1 className="text-4xl itim ml-20 mb-5">Cordenadores do projeto IMA:</h1>
-        <div className="flex justify-evenly">
+        <h1 className="text-4xl itim mb-5 text-center">Cordenadores do projeto IMA:</h1>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto">
           <CardPerfil
             nome="Marta M. Dornelles"
             image="/assets/posts/rede_neural.png"
@@ -64,7 +64,7 @@ export default function Equipe() {
           />
         </div>
 
-        <h1 className="text-4xl itim ml-20 mb-5 mt-10">Professora envolvida:</h1>
+        <h1 className="text-4xl itim mb-5 mt-10 text-center">Professora envolvida:</h1>
         <div className="flex justify-evenly">
           <CardPerfil
             nome="Martha Ximena Torres Delgado"
@@ -74,7 +74,7 @@ export default function Equipe() {
         </div>
         
         <h1 className="text-4xl itim text-center mb-5 mt-10">Alunos que contribuíram:</h1>
-        <div className="grid grid-cols-2 gap-4 w-11/12 mx-auto">
+        <div className="grid md:grid-cols-2 gap-4 w-11/12 mx-auto">
           {data.names.map((name, index) => (
             <div key={index} className="text-xl text-center">
               • {name}
