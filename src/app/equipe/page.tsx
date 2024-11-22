@@ -2,46 +2,15 @@ import Image from "next/image";
 import { Header } from "../components/Header";
 import TituloPost from "../components/TituloPost";
 import TituloSimples from "../components/TituloSimples";
-import CardPosts from "../components/CardPosts";
+import CardPosts from "../components/CardPostsProjetos";
 import { MousePointer2, MousePointerClick } from "lucide-react";
 import Link from "next/link";
 import BotaoNavegar from "../components/BotaoNavegar";
 import CardGrande from "../components/CardGrande";
 import { FooterIma } from "../components/Footer";
 import CardPerfil from "../components/CardPerfil";
+import {participantes} from "../data/envolvidos";
 
-const data = {
-  "names": [
-    "Antonio Henrique Oliveira santos",
-    "Bruno de Souza Santos",
-    "Cristiano Oliveira Santos",
-    "Davi Silva Oliveira",
-    "Eduardo Santos Silva",
-    "Eduardo Silva Oliveira",
-    "Eduardo OliveiraSouza",
-    "Antonio Henrique Oliveira santos",
-    "Bruno de Souza Santos",
-    "Cristiano Oliveira Santos",
-    "Davi Silva Oliveira",
-    "Eduardo Santos Silva",
-    "Eduardo Silva Oliveira",
-    "Eduardo OliveiraSouza",
-    "Antonio Henrique Oliveira santos",
-    "Bruno de Souza Santos",
-    "Cristiano Oliveira Santos",
-    "Davi Silva Oliveira",
-    "Eduardo Santos Silva",
-    "Eduardo Silva Oliveira",
-    "Eduardo OliveiraSouza",
-    "Antonio Henrique Oliveira santos",
-    "Bruno de Souza Santos",
-    "Cristiano Oliveira Santos",
-    "Davi Silva Oliveira",
-    "Eduardo Santos Silva",
-    "Eduardo Silva Oliveira",
-    "Eduardo OliveiraSouza",
-  ]
-};
 
 export default function Equipe() {
   return (
@@ -54,13 +23,13 @@ export default function Equipe() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto">
           <CardPerfil
             nome="Marta M. Dornelles"
-            image="/assets/posts/rede_neural.png"
-            link=""
+            image="/assets/fotos/marta.jpeg"
+            link="http://lattes.cnpq.br/0053869533760582"
           />
           <CardPerfil
             nome="César Alberto Bravo Pariente"
-            image="/assets/posts/rede_neural.png"
-            link=""
+            image="/assets/fotos/bravo.webp"
+            link="https://buscatextual.cnpq.br/buscatextual/visualizacv.do"
           />
         </div>
 
@@ -68,14 +37,14 @@ export default function Equipe() {
         <div className="flex justify-evenly">
           <CardPerfil
             nome="Martha Ximena Torres Delgado"
-            image="/assets/posts/rede_neural.png"
-            link=""
+            image="/assets/fotos/Ximena.jpeg"
+            link="http://lattes.cnpq.br/5466915298318577"
           />
         </div>
         
-        <h1 className="text-4xl itim text-center mb-5 mt-10">Alunos que contribuíram:</h1>
+        <h1 className="text-4xl itim text-center mb-5 mt-10">Partícipes:</h1>
         <div className="grid md:grid-cols-2 gap-4 w-11/12 mx-auto">
-          {data.names.map((name, index) => (
+          {participantes.map((name, index) => (
             <div key={index} className="text-xl text-center">
               • {name}
             </div>

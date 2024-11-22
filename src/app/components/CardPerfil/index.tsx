@@ -27,7 +27,7 @@ export default function CardPerfil(props: propsCard) {
         <div>
     <h1 className="text-black text-[20px]  itim  w-[330px] mt-4 text-center">{props.nome}</h1>
    
-    <a href={props.link} target="_blank" className=" text-xl font-normal itim hover:underline flex justify-center mt-3">Ver latess</a>
+    <a href={props.link} target="_blank" className=" text-xl font-normal itim hover:underline flex justify-center mt-3">Ver lattes</a>
 </div>
 </div>
   );

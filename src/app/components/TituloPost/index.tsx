@@ -86,17 +86,17 @@ export default function TituloPost(props: TituloProps) {
     }
   }, [image]);
 
-  const handleMouseEnter = () => {
-    if (videoRef.current) {
-      videoRef.current.play();
-    }
-  };
+  // const handleMouseEnter = () => {
+  //   if (videoRef.current) {
+  //     videoRef.current.play();
+  //   }
+  // };
 
-  const handleMouseLeave = () => {
-    if (videoRef.current) {
-      videoRef.current.pause();
-    }
-  };
+  // const handleMouseLeave = () => {
+  //   if (videoRef.current) {
+  //     videoRef.current.pause();
+  //   }
+  // };
 
   return (
     <section className="relative flex h-[360px] justify-center items-center flex-col mb-[50px] bg-black">
@@ -105,11 +105,12 @@ export default function TituloPost(props: TituloProps) {
           href="https://youtu.be/TKMu8HnnSvw?si=25sa0KrJDU9mqBPQ"
           target="_blank"
           className="w-full h-full object-cover z-0 opacity-90 hover:opacity-100 transition-all duration-500"
-          onMouseEnter={handleMouseEnter}
-          onMouseLeave={handleMouseLeave}
+          // onMouseEnter={handleMouseEnter}
+          // onMouseLeave={handleMouseLeave}
         >
           <video
-            ref={videoRef}
+            // ref={videoRef}
+            autoPlay
             src={"/assets/background/uesc.mp4"}
             loop
             muted

@@ -64,7 +64,7 @@ export function Header() {
           <li className="w-full md:w-auto">
             <Link
               href="/"
-              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+              className="block py-2 px-2 md:px-4 hover:bg-[#2f5a88] duration-500 hover:text-white rounded-xl transition-all"
             >
               Home
             </Link>
@@ -72,7 +72,7 @@ export function Header() {
           <li className="w-full md:w-auto">
             <Link
               href="/projetos"
-              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+              className="block py-2 px-2 md:px-4 hover:bg-[#2f5a88] duration-500 hover:text-white rounded-xl transition-all"
             >
               Projetos
             </Link>
@@ -80,7 +80,7 @@ export function Header() {
           <li className="w-full md:w-auto">
             <Link
               href="/tcc"
-              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+              className="block py-2 px-2 md:px-4 hover:bg-[#2f5a88] duration-500 hover:text-white rounded-xl transition-all"
             >
               TCC
             </Link>
@@ -88,7 +88,7 @@ export function Header() {
           <li className="w-full md:w-auto">
             <Link
               href="/galeria"
-              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+              className="block py-2 px-2 md:px-4 hover:bg-[#2f5a88] duration-500 hover:text-white rounded-xl transition-all"
             >
               Galeria
             </Link>
@@ -96,7 +96,7 @@ export function Header() {
           <li className="w-full md:w-auto">
             <Link
               href="/equipe"
-              className="block py-2 px-2 md:px-4 hover:bg-[#d2d2d2] rounded-xl transition-all"
+              className="block py-2 px-2 md:px-4 hover:bg-[#2f5a88] duration-500 hover:text-white rounded-xl transition-all"
             >
               Equipe
             </Link>

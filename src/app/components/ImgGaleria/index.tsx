@@ -19,8 +19,6 @@ export function ImgGaleria(props: ImgGaleriaProps) {
         <p>{props.text}</p>
       </div>
 </div>
-<p className="md:hidden text-black">{props.text}</p>
-
     </div>
   );
 }

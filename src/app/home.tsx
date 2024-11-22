@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Header } from "./components/Header";
 import TituloPost from "./components/TituloPost";
 import TituloSimples from "./components/TituloSimples";
-import CardPosts from "./components/CardPosts";
+import CardPosts from "./components/CardPostsProjetos";
 import { MousePointer2, MousePointerClick } from "lucide-react";
 import Link from "next/link";
 import BotaoNavegar from "./components/BotaoNavegar";

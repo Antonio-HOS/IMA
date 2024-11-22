@@ -1,0 +1,108 @@
+Trabalhos de conclusão de curso de graduação
+
+1.
+PARIENTE, CÉSAR A. B.; DORNELLES, MARTA MAGDA; Ambrósio, Paulo Eduardo. Participação em banca de JUCIELE SACRAMENTO FREITAS BASTOS.Segmentação de imagens RGB. 2020. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+2.
+DORNELLES, MARTA MAGDA; Ambrósio, Paulo Eduardo; HONDA, MARCELO O.. Participação em banca de Marcos Rogério Pinheiro Souza.Rede neural artificial como ferramenta de auxílio na previsão de safras de cacau. 2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+3.
+DORNELLES, MARTA MAGDA; HONDA, MARCELO O.; ALMEIDA, H. C.. Participação em banca de Nyguel Vinícius Sales Menezes.Aplicativo para consulta de preço: Informa Preço. 2019. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+4.
+DORNELLES, MARTA MAGDA; PARIENTE, CÉSAR A. B.; ABIJAUDE, J. W.. Participação em banca de Prabhát Kumar de Oliveira.Segmentação de amêndoas de cacau e identificação de atributos para a automatização do teste de corte. 2018. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+5.
+DORNELLES, MARTA MAGDA; PARIENTE, CÉSAR A. B.; ABIJAUDE, J. W.. Participação em banca de Patrick Silva Ferraz.Segmentação de amêndoas de cacau em imagens digitais de tábuas de corte. 2018. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+6.
+DORNELLES, MARTA M.; Ambrósio, Paulo Eduardo; HONDA, MARCELO O.. Participação em banca de Philipe Silva Farias.Extração de tags em documentos digitalizados.. 2017. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+7.
+DORNELLES, MARTA MAGDA; PARIENTE, CÉSAR A. B.. Participação em banca de Philipe Kramer.Desenvolvimento de Jogos com o Xbox 360 Kinect. 2017. Trabalho de Conclusão de Curso (Graduação em Ciência da Computação) - Universidade Estadual de Santa Cruz.
+
+------------------------------------------------------------------------------
+
+
+Resumos publicados em anais de congressos
+
+1.
+Santos, Fabiano S. dos ; DORNELLES, MARTA M. . METODOLOGIA DE APOIO PARA O ENSINO DE PROCESSAMENTO DIGITAL DE IMAGENS NO CURSO DE CIÊNCIA DA COMPUTAÇÃO. In: 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras., 2022, Ilhéus. 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras.. Ilhéus: Universidade Estadual de Santa Cruz, 2022.
+
+2.
+Oliveira, Christian M. ; DORNELLES, MARTA M. . Desenvolvimento de plataforma digital para coleta de dados do cultivo do cacau. In: 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras., 2022, Ilhéus. 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras.. Ilhéus: Universidade Estadual de Santa Cruz, 2022.
+
+3.
+VASCONCELOS, SAMUEL M. ; DORNELLES, MARTA M. . Software para a coleta de preços de itens da cesta básica do projeto ACCB: Melhorias computacionais. In: 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras., 2022, Ilhéus. 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras.. Ilhéus: Universidade Estadual de Santa Cruz, 2022.
+
+4.
+SILVA, M. N. ; DORNELLES, MARTA M. . Esteganografia e Processamento Digital de Imagens como recurso didático na matemática. In: 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras., 2022, Ilhéus. 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras.. Ilhéus: Universidade Estadual de Santa Cruz, 2022.
+
+5.
+Santos, Fabiano S. dos ; DORNELLES, MARTA M. ; PARIENTE, CÉSAR A. B. . Classificação de amêndoas de cacau em imagens digitais de tábuas de corte. In: 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica, 2021, Ilhéus. 9º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 28º Seminário de Iniciação Científica, Ser inclusiva e estar incluída: a realidade das universidades brasileiras.. Ilhéus: Universidade Estadual de Santa Cruz, 2021.
+
+6.
+SILVA, M. N. ; OLIVEIRA, ADRIEL F. DA SILVA ; DORNELLES, MARTA M. . Plataforma Web para armazenamento e consulta de informações do cultivo do cacau na Bahia. In: 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica, 2021, Ilhéus. 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica. Ilhéus: Universidade Estadual de Santa Cruz, 2021.
+
+7.
+VASCONCELOS, SAMUEL M. ; DORNELLES, MARTA M. ; PIRES, MÔNICA de MOURA . Ferramentas computacionais para a coleta de preços de itens da cesta básica do projeto ACCB. In: 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica, 2021, Ilhéus. 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica. Ilhéus: Universidade Estadual de Santa Cruz, 2021.
+
+8.
+Oliveira, Christian M. ; SERRA, HENRIQUE A. ; DORNELLES, MARTA M. . Aplicativo mobile para coleta de informações do cultivo do cacau. In: 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica, 2021, Ilhéus. 8º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 27º Seminário de Iniciação Científica. Ilhéus: Universidade Estadual de Santa Cruz, 2021.
+
+9.
+VASCONCELOS, SAMUEL M. ; DORNELLES, MARTA MAGDA . Aplicativo Mobile Cesta Básica. In: 6º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 2019, Ilheus. Anais do evento 25º Seminário de Iniciação Científica e 6º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação. Ilheus: Pró-Reitoria de Pesquisa e Pós-Graduação - PROPP, 2019. v. 06.
+
+10.
+OLIVEIRA, ADRIEL F. DA SILVA ; SERRA, HENRIQUE A. ; DORNELLES, MARTA MAGDA . Aplicativo de coleta de dados para previsão de safra cacaueira. In: 6º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação, 2019, Ilheus. Anais do evento 25º Seminário de Iniciação Científica e 6º Simpósio de Ensino, Extensão, Inovação, Pesquisa e Pós-Graduação. Ilheus: Pró-Reitoria de Pesquisa e Pós-Graduação - PROPP, 2019. v. 6º.
+
+
+
+------------------------------------------------------------------------
+Trabalhos completos publicados em anais de congressos
+
+1.
+OLIVEIRA, PRABHAT K. ; FERRAZ, PATRICK S. ; DORNELLES, MARTA M. . Segmentação de amêndoas de cacau em imagens digitais de tábuas de corte. In: XVIII ESCOLA REGIONAL DE COMPUTAÇÃO BAHIA - ALAGOAS - SERGIPE, 2018, Sergipe. 2018: Anais do XVIII Escola Regional de Computação Bahia, Alagoas e Sergipe. Porto Alegre: Sociedade Brasileira de Computação, 2018.
+-------------------------------------------------------------------------------
+
+
+
+Projetos de ensino
+2023 - Atual
+Monitoria em Fundamentos Matemáticos para Ciência da Computação
+Descrição: A proposta deste projeto busca despertar a compreensão do aluno para a importância da matemática na computação, através da monitoria para a disciplina de Fundamentos Matemáticos para Ciência da Computação. Essa trás conceitos matemáticos que são a base da computação e existe ainda um leque de disciplinas no curso em que a matemática é essencial. Assim, pretende-se melhorar os índices de aprovação nestas disciplinas e no curso em geral, bem como contribuir para uma melhor qualificação do egresso do curso de Ciência da Computação..
+Situação: Em andamento; Natureza: Ensino.
+Alunos envolvidos: Graduação: (50) .
+
+Integrantes: Marta Magda Dornelles - Coordenador / Solana Ametista Bonfim Lemos - Integrante.
+2022 - Atual
+METODOLOGIA DE APOIO PARA O ENSINO DE DESENVOLVIMENTO WEB
+Descrição: Uma área em alta no mercado de trabalho para o egresso do curso é a de desenvolvimento web. Essa carreira engloba, por exemplo, a criação de sites. Desse modo, é importante oportunizar ao estudante o ensino deste conteúdo, contribuindo para a sua formação profissional com metodologias que unam a teoria com a prática, dialogando com os seus pré-requisitos, facilitando o aprendizado do tema. Uma opção é trabalhar com estudo de caso. Essa forma facilita a compreensão dos temas e o desenvolvimento de atividades práticas. Este projeto tem por objetivo criar um estudo de caso da página do projeto INDICA, página essa desenvolvida no escopo do projeto de extensão INDICA do DCEC (Departamento de Ciências Econômicas da UESC), que é um interessante estudo de caso uma vez que aplica os conhecimentos da computação no desenvolvimento web para a área econômica. Conceitos do desenvolvimento web serão postos, propondo, posteriormente, uma atividade prática para exercício desses conceitos. Esse material de apoio será avaliado por professores da área e através de um minicurso..
+Situação: Em andamento; Natureza: Ensino.
+Alunos envolvidos: Graduação: (1) .
+
+Integrantes: Marta Magda Dornelles - Coordenador / JOÃO MANOEL ALMEIDA OLIVEIRA - Integrante.
+2021 - 2022
+Metodologia de apoio para o ensino de Processamento Digital de Imagens no Curso de Ciência da Computação
+Descrição: Produzir e disponibilizar um material de apoio, baseado na ferramenta Processing, para a introdução de conceitos básicos sobre processamento de imagens aos alunos do curso de ciência da computação da UESC..
+Situação: Concluído; Natureza: Ensino.
+Alunos envolvidos: Graduação: (1) .
+
+Integrantes: Marta Magda Dornelles - Coordenador / Fabiano Silva dos Santos - Integrante.
+2019 - Atual
+Metodologia de apoio para o ensino de Matemática aplicada na Ciência da Computação
+Descrição: A matemática está intimamente ligada à computação, seja na avaliação se um problema pode ser resolvido computacionalmente, na implementação de uma solução, na análise de tempo de um algoritmo, na verificação da corretude de um código, etc. Assim, para a formação de um profissional é importante ter uma fundamentação matemática adequada à computação. Através de uma metodologia alternativa, utilizando um compêndio de questões do URI previamente selecionadas e comentadas, pretende-se fomentar os fundamentos matemáticos em atividades de programação, melhorando o desempenho dos alunos nas disciplinas do curso e em sua formação profissional..
+Situação: Em andamento; Natureza: Ensino.
+Alunos envolvidos: Graduação: (1) .
+
+Integrantes: Marta Magda Dornelles - Coordenador / DANIEL JACKSON CAVALCANTE COSTA - Integrante.
+Financiador(es): Universidade Estadual de Santa Cruz - Auxílio financeiro / Universidade Estadual de Santa Cruz - Bolsa.
+
+
+
+
+
+---------------------------------------------------------
+anais do evento sic
+
+https://propp.uesc.br/sic/anais.php
