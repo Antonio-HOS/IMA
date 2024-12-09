@@ -23,7 +23,7 @@ export default function Equipe() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 mx-auto">
           <CardPerfil
             nome="Marta M. Dornelles"
-            image="/assets/fotos/marta.jpeg"
+            image="/assets/fotos/Marta.jpeg"
             link="http://lattes.cnpq.br/0053869533760582"
           />
           <CardPerfil
