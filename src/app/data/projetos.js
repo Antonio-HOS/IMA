@@ -26,7 +26,7 @@ export const data = {
       descricao:
         "Elaboração de sequências didáticas para introduzir conceitos básicos de processamento de imagens digitais para o ensino médio, aplicando conceitos de matemática de forma interessante e prática.",
       link: "sem link por enquanto",
-      imagem: "/assets/posts/PROCESSAMENTO-DE-IMAGE.png",
+      imagem:"/assets/posts/PROCESSAMENTO-DE-IMAGE.jpg",
     },
     {
       nome: "TCC: Rede Neural Artificial (RNA) na Previsão de Safras de Cacau",
